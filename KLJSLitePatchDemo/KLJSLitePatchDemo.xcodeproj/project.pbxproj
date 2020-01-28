@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79A1347423DF1E9D0098B329 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A1347323DF1E9D0098B329 /* AppDelegate.m */; };
+		79A1347723DF1E9D0098B329 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A1347623DF1E9D0098B329 /* ViewController.m */; };
+		79A1347923DF1EA00098B329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79A1347823DF1EA00098B329 /* Assets.xcassets */; };
+		79A1347C23DF1EA00098B329 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A1347A23DF1EA00098B329 /* Main.storyboard */; };
+		79A1347F23DF1EA00098B329 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A1347E23DF1EA00098B329 /* main.m */; };
+		79A1348923DF1EC10098B329 /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A1348823DF1EC10098B329 /* TestObject.m */; };
+		79A1348F23DF203C0098B329 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A1348E23DF203C0098B329 /* JavaScriptCore.framework */; };
+		79A1349323DF2F1F0098B329 /* fix.js in Resources */ = {isa = PBXBuildFile; fileRef = 79A1349223DF2F1F0098B329 /* fix.js */; };
+		79A1349F23DF4CC70098B329 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A1349D23DF4CC70098B329 /* Aspects.m */; };
+		79A134FC23E07B650098B329 /* STMethodSignature.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A134E623E07B650098B329 /* STMethodSignature.m */; };
+		79A134FD23E07B650098B329 /* StingerParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A134EA23E07B650098B329 /* StingerParams.m */; };
+		79A134FE23E07B650098B329 /* Stinger.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A134EB23E07B650098B329 /* Stinger.m */; };
+		79A134FF23E07B650098B329 /* STHookInfoPool.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A134EC23E07B650098B329 /* STHookInfoPool.m */; };
+		79A1350023E07B650098B329 /* STHookInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A134EE23E07B650098B329 /* STHookInfo.m */; };
+		79A1350123E07B650098B329 /* libffi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A134F923E07B650098B329 /* libffi.a */; };
+		79A1350423E07B870098B329 /* SwizzleMethodWithAspect.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A1350323E07B870098B329 /* SwizzleMethodWithAspect.m */; };
+		79A1350723E07C130098B329 /* SwizzleMethodWithStinger.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A1350623E07C130098B329 /* SwizzleMethodWithStinger.m */; };
+		79A1351123E0951F0098B329 /* KLJSLitePatchDefaultLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A1350923E0951E0098B329 /* KLJSLitePatchDefaultLogger.m */; };
+		79A1351223E0951F0098B329 /* KLJSLitePatchDefaultSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A1350C23E0951E0098B329 /* KLJSLitePatchDefaultSwizzler.m */; };
+		79A1351323E0951F0098B329 /* KLJSLitePatchMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A1350F23E0951E0098B329 /* KLJSLitePatchMain.m */; };
+		79A1351423E0951F0098B329 /* KLJSLitePatch.js in Resources */ = {isa = PBXBuildFile; fileRef = 79A1351023E0951E0098B329 /* KLJSLitePatch.js */; };
+		79A1351723E095670098B329 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 79A1351523E095670098B329 /* README.md */; };
+		79A1351823E095670098B329 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 79A1351623E095670098B329 /* LICENSE */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		79A134CB23E0718B0098B329 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		79A1346F23DF1E9C0098B329 /* KLJSLitePatchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLJSLitePatchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A1347223DF1E9D0098B329 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79A1347323DF1E9D0098B329 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79A1347523DF1E9D0098B329 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		79A1347623DF1E9D0098B329 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		79A1347823DF1EA00098B329 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79A1347B23DF1EA00098B329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79A1347D23DF1EA00098B329 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79A1347E23DF1EA00098B329 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79A1348023DF1EA00098B329 /* KLJSLitePatchDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KLJSLitePatchDemo.entitlements; sourceTree = "<group>"; };
+		79A1348723DF1EC10098B329 /* TestObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
+		79A1348823DF1EC10098B329 /* TestObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
+		79A1348E23DF203C0098B329 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		79A1349223DF2F1F0098B329 /* fix.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = fix.js; sourceTree = "<group>"; };
+		79A1349D23DF4CC70098B329 /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		79A1349E23DF4CC70098B329 /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		79A134C823E0718B0098B329 /* KLJSLitePatch_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = KLJSLitePatch_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A134E523E07B650098B329 /* STHookInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STHookInfo.h; sourceTree = "<group>"; };
+		79A134E623E07B650098B329 /* STMethodSignature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMethodSignature.m; sourceTree = "<group>"; };
+		79A134E723E07B650098B329 /* STHookInfoPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STHookInfoPool.h; sourceTree = "<group>"; };
+		79A134E823E07B650098B329 /* Stinger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stinger.h; sourceTree = "<group>"; };
+		79A134E923E07B650098B329 /* STDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STDefines.h; sourceTree = "<group>"; };
+		79A134EA23E07B650098B329 /* StingerParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StingerParams.m; sourceTree = "<group>"; };
+		79A134EB23E07B650098B329 /* Stinger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stinger.m; sourceTree = "<group>"; };
+		79A134EC23E07B650098B329 /* STHookInfoPool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STHookInfoPool.m; sourceTree = "<group>"; };
+		79A134ED23E07B650098B329 /* STMethodSignature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMethodSignature.h; sourceTree = "<group>"; };
+		79A134EE23E07B650098B329 /* STHookInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STHookInfo.m; sourceTree = "<group>"; };
+		79A134EF23E07B650098B329 /* StingerParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StingerParams.h; sourceTree = "<group>"; };
+		79A134F123E07B650098B329 /* ffitarget_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_arm64.h; sourceTree = "<group>"; };
+		79A134F223E07B650098B329 /* ffitarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget.h; sourceTree = "<group>"; };
+		79A134F323E07B650098B329 /* ffi_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_arm.h; sourceTree = "<group>"; };
+		79A134F423E07B650098B329 /* ffi_i386.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_i386.h; sourceTree = "<group>"; };
+		79A134F523E07B650098B329 /* ffitarget_x86_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_x86_64.h; sourceTree = "<group>"; };
+		79A134F623E07B650098B329 /* ffi_x86_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_x86_64.h; sourceTree = "<group>"; };
+		79A134F723E07B650098B329 /* ffitarget_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_arm.h; sourceTree = "<group>"; };
+		79A134F823E07B650098B329 /* ffitarget_i386.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_i386.h; sourceTree = "<group>"; };
+		79A134F923E07B650098B329 /* libffi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libffi.a; sourceTree = "<group>"; };
+		79A134FA23E07B650098B329 /* ffi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi.h; sourceTree = "<group>"; };
+		79A134FB23E07B650098B329 /* ffi_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_arm64.h; sourceTree = "<group>"; };
+		79A1350223E07B870098B329 /* SwizzleMethodWithAspect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwizzleMethodWithAspect.h; sourceTree = "<group>"; };
+		79A1350323E07B870098B329 /* SwizzleMethodWithAspect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwizzleMethodWithAspect.m; sourceTree = "<group>"; };
+		79A1350523E07C130098B329 /* SwizzleMethodWithStinger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwizzleMethodWithStinger.h; sourceTree = "<group>"; };
+		79A1350623E07C130098B329 /* SwizzleMethodWithStinger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwizzleMethodWithStinger.m; sourceTree = "<group>"; };
+		79A1350923E0951E0098B329 /* KLJSLitePatchDefaultLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLJSLitePatchDefaultLogger.m; sourceTree = "<group>"; };
+		79A1350A23E0951E0098B329 /* KLJSLitePatchMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLJSLitePatchMain.h; sourceTree = "<group>"; };
+		79A1350B23E0951E0098B329 /* KLJSLitePatchProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLJSLitePatchProtocols.h; sourceTree = "<group>"; };
+		79A1350C23E0951E0098B329 /* KLJSLitePatchDefaultSwizzler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLJSLitePatchDefaultSwizzler.m; sourceTree = "<group>"; };
+		79A1350D23E0951E0098B329 /* KLJSLitePatchDefaultLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLJSLitePatchDefaultLogger.h; sourceTree = "<group>"; };
+		79A1350E23E0951E0098B329 /* KLJSLitePatchDefaultSwizzler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLJSLitePatchDefaultSwizzler.h; sourceTree = "<group>"; };
+		79A1350F23E0951E0098B329 /* KLJSLitePatchMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLJSLitePatchMain.m; sourceTree = "<group>"; };
+		79A1351023E0951E0098B329 /* KLJSLitePatch.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = KLJSLitePatch.js; sourceTree = "<group>"; };
+		79A1351523E095670098B329 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		79A1351623E095670098B329 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79A1346C23DF1E9C0098B329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A1348F23DF203C0098B329 /* JavaScriptCore.framework in Frameworks */,
+				79A1350123E07B650098B329 /* libffi.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79A1346623DF1E9C0098B329 = {
+			isa = PBXGroup;
+			children = (
+				79A1351623E095670098B329 /* LICENSE */,
+				79A1351523E095670098B329 /* README.md */,
+				79A1350823E0951E0098B329 /* KLJSLitePatch */,
+				79A1347123DF1E9D0098B329 /* KLJSLitePatchDemo */,
+				79A1347023DF1E9C0098B329 /* Products */,
+				79A1348D23DF203C0098B329 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		79A1347023DF1E9C0098B329 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79A1346F23DF1E9C0098B329 /* KLJSLitePatchDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79A1347123DF1E9D0098B329 /* KLJSLitePatchDemo */ = {
+			isa = PBXGroup;
+			children = (
+				79A1349C23DF4CA70098B329 /* Aspect */,
+				79A1350223E07B870098B329 /* SwizzleMethodWithAspect.h */,
+				79A1350323E07B870098B329 /* SwizzleMethodWithAspect.m */,
+				79A134E423E07B650098B329 /* Stinger */,
+				79A1350523E07C130098B329 /* SwizzleMethodWithStinger.h */,
+				79A1350623E07C130098B329 /* SwizzleMethodWithStinger.m */,
+				79A1348723DF1EC10098B329 /* TestObject.h */,
+				79A1348823DF1EC10098B329 /* TestObject.m */,
+				79A1349223DF2F1F0098B329 /* fix.js */,
+				79A1347223DF1E9D0098B329 /* AppDelegate.h */,
+				79A1347323DF1E9D0098B329 /* AppDelegate.m */,
+				79A1347523DF1E9D0098B329 /* ViewController.h */,
+				79A1347623DF1E9D0098B329 /* ViewController.m */,
+				79A1347823DF1EA00098B329 /* Assets.xcassets */,
+				79A1347A23DF1EA00098B329 /* Main.storyboard */,
+				79A1347D23DF1EA00098B329 /* Info.plist */,
+				79A1347E23DF1EA00098B329 /* main.m */,
+				79A1348023DF1EA00098B329 /* KLJSLitePatchDemo.entitlements */,
+			);
+			path = KLJSLitePatchDemo;
+			sourceTree = "<group>";
+		};
+		79A1348D23DF203C0098B329 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79A134C823E0718B0098B329 /* KLJSLitePatch_macOS.framework */,
+				79A1348E23DF203C0098B329 /* JavaScriptCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79A1349C23DF4CA70098B329 /* Aspect */ = {
+			isa = PBXGroup;
+			children = (
+				79A1349E23DF4CC70098B329 /* Aspects.h */,
+				79A1349D23DF4CC70098B329 /* Aspects.m */,
+			);
+			path = Aspect;
+			sourceTree = "<group>";
+		};
+		79A134E423E07B650098B329 /* Stinger */ = {
+			isa = PBXGroup;
+			children = (
+				79A134E523E07B650098B329 /* STHookInfo.h */,
+				79A134E623E07B650098B329 /* STMethodSignature.m */,
+				79A134E723E07B650098B329 /* STHookInfoPool.h */,
+				79A134E823E07B650098B329 /* Stinger.h */,
+				79A134E923E07B650098B329 /* STDefines.h */,
+				79A134EA23E07B650098B329 /* StingerParams.m */,
+				79A134EB23E07B650098B329 /* Stinger.m */,
+				79A134EC23E07B650098B329 /* STHookInfoPool.m */,
+				79A134ED23E07B650098B329 /* STMethodSignature.h */,
+				79A134EE23E07B650098B329 /* STHookInfo.m */,
+				79A134EF23E07B650098B329 /* StingerParams.h */,
+				79A134F023E07B650098B329 /* libffi */,
+			);
+			path = Stinger;
+			sourceTree = "<group>";
+		};
+		79A134F023E07B650098B329 /* libffi */ = {
+			isa = PBXGroup;
+			children = (
+				79A134F123E07B650098B329 /* ffitarget_arm64.h */,
+				79A134F223E07B650098B329 /* ffitarget.h */,
+				79A134F323E07B650098B329 /* ffi_arm.h */,
+				79A134F423E07B650098B329 /* ffi_i386.h */,
+				79A134F523E07B650098B329 /* ffitarget_x86_64.h */,
+				79A134F623E07B650098B329 /* ffi_x86_64.h */,
+				79A134F723E07B650098B329 /* ffitarget_arm.h */,
+				79A134F823E07B650098B329 /* ffitarget_i386.h */,
+				79A134F923E07B650098B329 /* libffi.a */,
+				79A134FA23E07B650098B329 /* ffi.h */,
+				79A134FB23E07B650098B329 /* ffi_arm64.h */,
+			);
+			path = libffi;
+			sourceTree = "<group>";
+		};
+		79A1350823E0951E0098B329 /* KLJSLitePatch */ = {
+			isa = PBXGroup;
+			children = (
+				79A1350923E0951E0098B329 /* KLJSLitePatchDefaultLogger.m */,
+				79A1350A23E0951E0098B329 /* KLJSLitePatchMain.h */,
+				79A1350B23E0951E0098B329 /* KLJSLitePatchProtocols.h */,
+				79A1350C23E0951E0098B329 /* KLJSLitePatchDefaultSwizzler.m */,
+				79A1350D23E0951E0098B329 /* KLJSLitePatchDefaultLogger.h */,
+				79A1350E23E0951E0098B329 /* KLJSLitePatchDefaultSwizzler.h */,
+				79A1350F23E0951E0098B329 /* KLJSLitePatchMain.m */,
+				79A1351023E0951E0098B329 /* KLJSLitePatch.js */,
+			);
+			name = KLJSLitePatch;
+			path = ../KLJSLitePatch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79A1346E23DF1E9C0098B329 /* KLJSLitePatchDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A1348323DF1EA00098B329 /* Build configuration list for PBXNativeTarget "KLJSLitePatchDemo" */;
+			buildPhases = (
+				79A1346B23DF1E9C0098B329 /* Sources */,
+				79A1346C23DF1E9C0098B329 /* Frameworks */,
+				79A1346D23DF1E9C0098B329 /* Resources */,
+				79A134CB23E0718B0098B329 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KLJSLitePatchDemo;
+			productName = KLJSLitePatchDemo;
+			productReference = 79A1346F23DF1E9C0098B329 /* KLJSLitePatchDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79A1346723DF1E9C0098B329 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "R3 Studio";
+				TargetAttributes = {
+					79A1346E23DF1E9C0098B329 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 79A1346A23DF1E9C0098B329 /* Build configuration list for PBXProject "KLJSLitePatchDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79A1346623DF1E9C0098B329;
+			productRefGroup = 79A1347023DF1E9C0098B329 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79A1346E23DF1E9C0098B329 /* KLJSLitePatchDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79A1346D23DF1E9C0098B329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A1351823E095670098B329 /* LICENSE in Resources */,
+				79A1349323DF2F1F0098B329 /* fix.js in Resources */,
+				79A1351423E0951F0098B329 /* KLJSLitePatch.js in Resources */,
+				79A1351723E095670098B329 /* README.md in Resources */,
+				79A1347923DF1EA00098B329 /* Assets.xcassets in Resources */,
+				79A1347C23DF1EA00098B329 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79A1346B23DF1E9C0098B329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A1347723DF1E9D0098B329 /* ViewController.m in Sources */,
+				79A134FF23E07B650098B329 /* STHookInfoPool.m in Sources */,
+				79A134FC23E07B650098B329 /* STMethodSignature.m in Sources */,
+				79A1350723E07C130098B329 /* SwizzleMethodWithStinger.m in Sources */,
+				79A1349F23DF4CC70098B329 /* Aspects.m in Sources */,
+				79A1347F23DF1EA00098B329 /* main.m in Sources */,
+				79A134FE23E07B650098B329 /* Stinger.m in Sources */,
+				79A1351123E0951F0098B329 /* KLJSLitePatchDefaultLogger.m in Sources */,
+				79A1350423E07B870098B329 /* SwizzleMethodWithAspect.m in Sources */,
+				79A1351323E0951F0098B329 /* KLJSLitePatchMain.m in Sources */,
+				79A134FD23E07B650098B329 /* StingerParams.m in Sources */,
+				79A1348923DF1EC10098B329 /* TestObject.m in Sources */,
+				79A1347423DF1E9D0098B329 /* AppDelegate.m in Sources */,
+				79A1351223E0951F0098B329 /* KLJSLitePatchDefaultSwizzler.m in Sources */,
+				79A1350023E07B650098B329 /* STHookInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		79A1347A23DF1EA00098B329 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79A1347B23DF1EA00098B329 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79A1348123DF1EA00098B329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		79A1348223DF1EA00098B329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		79A1348423DF1EA00098B329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KLJSLitePatchDemo/KLJSLitePatchDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = N5KQ5BF27M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = KLJSLitePatchDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KLJSLitePatchDemo/Stinger/libffi",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.r3studio.KLJSLitePatchDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		79A1348523DF1EA00098B329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KLJSLitePatchDemo/KLJSLitePatchDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = N5KQ5BF27M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = KLJSLitePatchDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KLJSLitePatchDemo/Stinger/libffi",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.r3studio.KLJSLitePatchDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79A1346A23DF1E9C0098B329 /* Build configuration list for PBXProject "KLJSLitePatchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A1348123DF1EA00098B329 /* Debug */,
+				79A1348223DF1EA00098B329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79A1348323DF1EA00098B329 /* Build configuration list for PBXNativeTarget "KLJSLitePatchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A1348423DF1EA00098B329 /* Debug */,
+				79A1348523DF1EA00098B329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79A1346723DF1E9C0098B329 /* Project object */;
+}
