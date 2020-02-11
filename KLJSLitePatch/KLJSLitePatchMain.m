@@ -261,14 +261,10 @@ static id<KLJSLitePatchMethodSwizzleProtocol> swizzleInstance;
         return nil;
     }
     
-    if ([ret isKindOfClass:[NSString class]] || [ret isKindOfClass:[NSDictionary class]] || [ret isKindOfClass:[NSArray class]]) {
+    if ([ret isKindOfClass:[NSObject class]]) {
         if (!ret) {
             return @(0);
         }
-        return ret;
-    }
-    
-    if ([ret isKindOfClass:[NSNumber class]] || [ret isKindOfClass:NSClassFromString(@"NSBlock")] || [ret isKindOfClass:[JSValue class]]) {
         return ret;
     }
     
