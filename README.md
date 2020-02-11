@@ -50,7 +50,7 @@ If there is not exception, you are ready to go.
 
 ### Step 3 - Build JS Hotfix Script
 
-So we assume there is problem of this function:
+So we assume there is a problem in this function:
 
 ```objc
 @interface TestObject : NSObject
@@ -86,7 +86,7 @@ When you receiving Patch from your server, you could load the patch into applica
 [KLJSLitePatchMain evaluateScript:script];
 ```
 
-The functions will process the script with your Script Verification & Script Encode before apply patch to your application.
+The functions will process the script with your Script Verification & Script Decode before apply patch to your application.
 
 You should check your script locally with your device before destribute your patch.
 
